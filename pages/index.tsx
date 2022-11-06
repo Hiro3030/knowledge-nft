@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Home: NextPage = () => {
   const OTAButton = () => (
-    <Link href="/home">
+    <Link href="/login">
       <button className="bg-gray-200 p-3 my-5 hover:bg-gray-300 rounded shadow px-4">
         ログイン/新規登録
       </button>
